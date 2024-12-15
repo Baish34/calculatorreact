@@ -1,0 +1,65 @@
+/* Style for the overall calculator container */
+.calculator-container {
+  text-align: center;
+  margin: 50px auto;
+  width: 90%;
+  max-width: 400px;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading style */
+h1 {
+  margin-bottom: 20px;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+/* Style for input fields */
+.input-field {
+  width: 90%;
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Style for button container */
+.button-container {
+  margin: 20px 0;
+}
+
+/* Style for buttons */
+.button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Hover effect for buttons */
+.button:hover {
+  background-color: #0056b3;
+}
+
+/* Style for result display */
+.result-display {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #eaf4fc;
+  border: 1px solid #b6d8f8;
+  border-radius: 5px;
+  color: #007bff;
+  font-weight: bold;
+  font-size: 18px;
+}
